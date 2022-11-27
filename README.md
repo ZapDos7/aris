@@ -10,7 +10,7 @@ We need to calculate the amount of programs/processes that will be completed, as
 ### Execution
 ```
 javac Aris.java
-java Aris
+java Aris aris.in aris.out
 ```
 
 ### Input & Output Files
