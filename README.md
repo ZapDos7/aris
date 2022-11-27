@@ -7,6 +7,12 @@
 During a 24 hour period, the super-computer ARIS can perform processes for M research teams, divided in N execution windows (M∈[1, 1.000.000], N∈[1, 1.000.000])
 We need to calculate the amount of programs/processes that will be completed, as well as the execution windows required for both the shortest and longest programs.
 
+### Execution
+```
+javac Aris.java
+java Aris
+```
+
 ### Input & Output Files
 * The input file `aris.in` must contain 2 lines, as such:
 ```
@@ -25,13 +31,14 @@ where K will be the number of teams whose work has been concluded (K may be less
 `aris1.in`:
 ```
 10 5
-1 2 3 4 1 5 1 2 1
+1 2 3 4 1 5 1 5 2 1
 ```
 `aris1.out`:
 ```
 5 1 4
 ```
 _Explanation: All 5 teams' works have been concluded, the shortest programs (4,5) were concluded in 1 execution window and the longest (1) needed 4 windows._
+
 `aris2.in`:
 ```
 12 6
